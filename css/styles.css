@@ -51,6 +51,10 @@ body {
   padding-bottom: 94px;
 }
 
+img {
+  display: block;
+}
+
 .list {
   list-style: none;
   padding: 0;
@@ -223,6 +227,8 @@ body {
 }
 
 .benefits .title {
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
@@ -238,7 +244,17 @@ body {
   padding-top: 0%;
 }
 
+.about-us .list {
+  display: flex;
+}
+
+.about-us .item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .about-us .title {
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
