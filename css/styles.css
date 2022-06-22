@@ -46,6 +46,11 @@ body {
   outline: 2px solid tomato;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .list {
   list-style: none;
   padding: 0;
@@ -209,6 +214,14 @@ body {
 }
 
 /* Преимущества */
+.benefits .list {
+  display: flex;
+}
+
+.benefits .item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .benefits .title {
   font-weight: 700;
   font-size: 14px;
@@ -221,6 +234,10 @@ body {
 }
 
 /* Чем мы занимаемся */
+.about-us {
+  padding-top: 0%;
+}
+
 .about-us .title {
   font-weight: 700;
   font-size: 36px;
