@@ -98,7 +98,7 @@ img {
   align-items: center;
 }
 
-.link.logo {
+.page-header .logo {
   margin-right: 93px;
 }
 
@@ -160,6 +160,13 @@ img {
 /* Футер */
 .footer {
   background-color: var(--third-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer .link.logo {
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 .logo-invert {
@@ -168,6 +175,10 @@ img {
 
 .footer-contacts {
   font-style: normal;
+}
+
+.footer-contacts .item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-contacts .link {
